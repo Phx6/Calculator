@@ -42,7 +42,6 @@ key.addEventListener('click', e => {
             }
             else if (previousAction != "") {
                 secondNumber = parseFloat(display.innerHTML)
-                console.log(previousAction)
                 calculate(firstNumber, previousAction, secondNumber)
                 previousAction = action
                 firstNumber = result
